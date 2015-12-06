@@ -1,0 +1,161 @@
+p, h2, h3, h1 {
+	color: #86a4e3;
+	font-family: 'Lato', sans-serif;
+}
+
+#mainBody{
+    margin-top: 40px;
+    width: 63%;
+    float: left;
+}
+
+#name {
+    width: 581px;
+		margin-right:auto;
+		margin-left:auto;
+}
+
+#outgoing {
+    width: 624px;
+}
+
+#sidebar {
+    width: 30%;
+    float: left;
+    margin-top: 100px;
+}
+#logo {
+    height: 175px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #222;
+    margin-top: 75px;
+    position: relative;
+}
+
+#logoImage{
+	transition: box-shadow 0.2s ease;
+	width:100%;
+	border-radius: 50%;
+}
+#logoImage:hover{
+    border-radius: 50%;
+    box-shadow: 0 0 10px white;
+}
+
+#circle {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: #222;
+	margin-top: 33px;
+	position: relative;
+	display:none;
+}
+
+.poly {
+	fill:#86a4e3;
+	opacity:.5;
+}
+body {
+	background-color: #222;
+}
+
+#h {
+	fill: #222;
+	pointer-events:none;
+}
+
+#poly26{
+	fill: red;
+}
+
+#h:after{
+    content:"";
+    display: inline-block;
+    width: 100%;
+}
+
+#h2 {
+	font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #222;
+    position: absolute;
+    top: -25px;
+    left: 20px;
+    font-size: 179px;
+    pointer-events: none;
+}
+
+#links a {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: #86a4e3;
+	font-size: 40px;
+	text-decoration: none;
+	margin: 30px;
+	opacity: .5;
+}
+#links h1 {
+	margin-top:0px;
+	margin-bottom:0px;
+	opacity: .7;
+}
+#links {
+	width: 624px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 20px;
+	display: none;
+}
+.linkSymbol{
+	display:none;
+}
+
+
+@media(max-width:630px){
+	#links {
+		margin-top: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	#outgoing{
+		width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+		margin-top: 0px;
+	}
+	#name{
+		width: 100%;
+		text-align: center;
+	}
+	#circle{
+		margin-top: 15px;
+	}
+	#name a {
+		font-size: 21px;
+	}
+	#outgoing{
+		width: 194px;
+    margin-left: auto;
+    margin-right: auto;
+		margin-top: 23px;
+	}
+	.linkWords{
+		display:none;
+	}
+	#links a.linkSymbol{
+		display: inline-block;
+		font-size: 50px;
+    margin: 6px;
+    width: 50px;
+	}
+
+}
